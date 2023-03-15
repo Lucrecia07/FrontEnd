@@ -1,0 +1,19 @@
+.row{
+    padding: 20px;
+    background-color: #eddbf5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contenedor{
+    width: auto;
+
+}
+
+.parte1, .parte2{
+    display: inline-block;
+    text-align: justify;
+}
+
+.img-portfolio{
+    box-shadow: 10px 10px 25px #000000;
+}

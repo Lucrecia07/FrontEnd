@@ -1,0 +1,11 @@
+.row{
+    background-color: #eddbf5;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.circulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
