@@ -34,6 +34,7 @@ export class EditExperienciaComponent implements OnInit {
     this.sExperiencia.update(id, this.expLab).subscribe(
       {
         next: (data) => {
+          alert("Experiencia editada correctamente");
           this.router.navigate(['']);
         },
         error: (err) => {

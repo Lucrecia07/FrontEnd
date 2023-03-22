@@ -11,7 +11,9 @@ import { Educacion } from '../model/educacion';
 export class EducacionService {
 
   //URL = environment.URL + 'educacion/';
-  URL = 'http://localhost:8080/educacion/';
+ //URL = 'http://localhost:8080/educacion/';
+ 
+ URL = 'https://backend-h9as.onrender.com/educacion/';
 
   constructor(private httpClient: HttpClient) { }
 
